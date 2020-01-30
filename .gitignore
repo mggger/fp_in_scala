@@ -4,3 +4,4 @@ target/*
 .idea/*
 project/target/*
 project/target/
+.idea/*.xml
