@@ -1,12 +1,6 @@
 package chapter4
 
 
-
-
-
-
-
-
 trait Either[+E, +A] {
   def map[B](f: A => B): Either[E, B] = {
     this match {
